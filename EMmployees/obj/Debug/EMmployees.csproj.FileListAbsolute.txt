@@ -1,0 +1,11 @@
+C:\Users\waelh\source\repos\EMmployees\EMmployees\bin\Debug\EMmployees.exe.config
+C:\Users\waelh\source\repos\EMmployees\EMmployees\bin\Debug\EMmployees.exe
+C:\Users\waelh\source\repos\EMmployees\EMmployees\bin\Debug\EMmployees.pdb
+C:\Users\waelh\source\repos\EMmployees\EMmployees\obj\Debug\EMmployees.csproj.AssemblyReference.cache
+C:\Users\waelh\source\repos\EMmployees\EMmployees\obj\Debug\EMmployees.Properties.Resources.resources
+C:\Users\waelh\source\repos\EMmployees\EMmployees\obj\Debug\EMmployees.csproj.GenerateResource.cache
+C:\Users\waelh\source\repos\EMmployees\EMmployees\obj\Debug\EMmployees.csproj.CoreCompileInputs.cache
+C:\Users\waelh\source\repos\EMmployees\EMmployees\obj\Debug\EMmployees.exe
+C:\Users\waelh\source\repos\EMmployees\EMmployees\obj\Debug\EMmployees.pdb
+C:\Users\waelh\source\repos\EMmployees\EMmployees\obj\Debug\EMmployees.Login.resources
+C:\Users\waelh\source\repos\EMmployees\EMmployees\obj\Debug\EMmployees.Register.resources
