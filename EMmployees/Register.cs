@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Drawing;
+using System.IO;
 using System.Text.RegularExpressions;
 using System.Windows.Forms;
 
@@ -69,8 +70,12 @@ namespace EMmployees
 
         private void RegisterNow_Click(object sender, EventArgs e)
         {
+
             if (password.Text == confirmpassword.Text && label4.Text == "")
             {
+                Admin AdminAcount= new Admin(userRegister.Text, password.Text);
+                SaveAdminAccount(AdminAcount);
+
                 StartZoomInAnimation();
                 StartSuccessLabelAnimation("Registration Successful!");
 
@@ -84,6 +89,22 @@ namespace EMmployees
             {
                 label4.Text = "Please fix the errors above.";
                 label4.ForeColor = Color.Red;
+            }
+        }
+        private void SaveAdminAccount(Admin admin)
+        {
+            try
+            {
+                string filePath = "data.txt"; // This could be a path to your file
+                using (StreamWriter writer = new StreamWriter(filePath, false)) // Overwrite existing file
+                {
+                    writer.WriteLine(admin.UserName);  // Save username
+                    writer.WriteLine(admin.Password);  // Save password
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error saving admin account: {ex.Message}");
             }
         }
 
@@ -193,6 +214,13 @@ namespace EMmployees
 
         private void label2_Click(object sender, EventArgs e)
         {
+        }
+
+        private void retour_Click(object sender, EventArgs e)
+        {
+            Login login = new Login();
+            login.Show();
+            this.Hide();
         }
     }
 }

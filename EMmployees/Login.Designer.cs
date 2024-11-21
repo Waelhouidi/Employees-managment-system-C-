@@ -36,8 +36,8 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.username = new System.Windows.Forms.TextBox();
+            this.passwordLogin = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
@@ -65,7 +65,7 @@
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(95, 106);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(128, 112);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -90,7 +90,7 @@
             // 
             this.registerBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.registerBtn.Location = new System.Drawing.Point(121, 406);
-            this.registerBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.registerBtn.Margin = new System.Windows.Forms.Padding(4);
             this.registerBtn.Name = "registerBtn";
             this.registerBtn.Size = new System.Drawing.Size(100, 28);
             this.registerBtn.TabIndex = 7;
@@ -130,25 +130,25 @@
             this.label2.TabIndex = 2;
             this.label2.Text = "User Name :";
             // 
-            // textBox1
+            // username
             // 
-            this.textBox1.BackColor = System.Drawing.Color.MintCream;
-            this.textBox1.Location = new System.Drawing.Point(400, 177);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(328, 30);
-            this.textBox1.TabIndex = 3;
+            this.username.BackColor = System.Drawing.Color.MintCream;
+            this.username.Location = new System.Drawing.Point(400, 177);
+            this.username.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.username.Multiline = true;
+            this.username.Name = "username";
+            this.username.Size = new System.Drawing.Size(328, 30);
+            this.username.TabIndex = 3;
             // 
-            // textBox2
+            // passwordLogin
             // 
-            this.textBox2.BackColor = System.Drawing.Color.MintCream;
-            this.textBox2.Location = new System.Drawing.Point(400, 279);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(328, 30);
-            this.textBox2.TabIndex = 5;
+            this.passwordLogin.BackColor = System.Drawing.Color.MintCream;
+            this.passwordLogin.Location = new System.Drawing.Point(400, 279);
+            this.passwordLogin.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.passwordLogin.Multiline = true;
+            this.passwordLogin.Name = "passwordLogin";
+            this.passwordLogin.Size = new System.Drawing.Size(328, 30);
+            this.passwordLogin.TabIndex = 5;
             // 
             // label3
             // 
@@ -164,18 +164,19 @@
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(400, 372);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(100, 28);
             this.button1.TabIndex = 6;
             this.button1.Text = "Login";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // checkBox1
             // 
             this.checkBox1.AutoSize = true;
             this.checkBox1.Location = new System.Drawing.Point(597, 327);
-            this.checkBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox1.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(122, 20);
             this.checkBox1.TabIndex = 7;
@@ -203,9 +204,9 @@
             this.Controls.Add(this.exait);
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.passwordLogin);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.username);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel1);
@@ -227,8 +228,8 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox username;
+        private System.Windows.Forms.TextBox passwordLogin;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button button1;

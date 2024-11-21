@@ -40,6 +40,7 @@ namespace EMmployees
             this.confirmpassword = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.retour = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -60,7 +61,7 @@ namespace EMmployees
             // 
             this.RegisterNow.Cursor = System.Windows.Forms.Cursors.Hand;
             this.RegisterNow.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RegisterNow.Location = new System.Drawing.Point(338, 393);
+            this.RegisterNow.Location = new System.Drawing.Point(259, 396);
             this.RegisterNow.Margin = new System.Windows.Forms.Padding(4);
             this.RegisterNow.Name = "RegisterNow";
             this.RegisterNow.Size = new System.Drawing.Size(108, 31);
@@ -143,12 +144,26 @@ namespace EMmployees
             this.label4.Text = "notconfirm";
             this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
+            // retour
+            // 
+            this.retour.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.retour.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.retour.Location = new System.Drawing.Point(424, 396);
+            this.retour.Margin = new System.Windows.Forms.Padding(4);
+            this.retour.Name = "retour";
+            this.retour.Size = new System.Drawing.Size(108, 31);
+            this.retour.TabIndex = 19;
+            this.retour.Text = "Retour";
+            this.retour.UseVisualStyleBackColor = true;
+            this.retour.Click += new System.EventHandler(this.retour_Click);
+            // 
             // Register
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkViolet;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.retour);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.confirmpassword);
@@ -182,5 +197,6 @@ namespace EMmployees
         private System.Windows.Forms.TextBox confirmpassword;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button retour;
     }
 }

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Drawing;
+using System.IO;
 using System.Windows.Forms;
 
 namespace EMmployees
@@ -126,6 +127,57 @@ namespace EMmployees
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Admin savedAdmin = LoadAdminAccount();
+
+            if (savedAdmin != null)
+            {
+                if (savedAdmin.UserName == username.Text && savedAdmin.Password == passwordLogin.Text)
+                {
+                    Dashboard dashboard = new Dashboard();
+                    dashboard.Show();
+                    this.Hide();
+                   
+                }
+                else
+                {
+                    
+                    MessageBox.Show("Invalid username or password.");
+                }
+            }
+            else
+            {
+                MessageBox.Show("Admin account not found.");
+            }
+        }
+
+        private Admin LoadAdminAccount()
+        {
+            try
+            {
+                string filePath = "data.txt"; 
+                if (File.Exists(filePath))
+                {
+                    using (StreamReader reader = new StreamReader(filePath))
+                    {
+                        string userName = reader.ReadLine();
+                        string password = reader.ReadLine();
+                        return new Admin(userName, password);
+                    }
+                }
+                else
+                {
+                    return null; 
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error loading admin account: {ex.Message}");
+                return null;
+            }
         }
     }
 }
