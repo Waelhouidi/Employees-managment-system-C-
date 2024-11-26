@@ -39,7 +39,7 @@
             this.username = new System.Windows.Forms.TextBox();
             this.passwordLogin = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.loginBtn = new System.Windows.Forms.Button();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.exait = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
@@ -160,17 +160,17 @@
             this.label3.TabIndex = 4;
             this.label3.Text = "Password:";
             // 
-            // button1
+            // loginBtn
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(400, 372);
-            this.button1.Margin = new System.Windows.Forms.Padding(4);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(100, 28);
-            this.button1.TabIndex = 6;
-            this.button1.Text = "Login";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.loginBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.loginBtn.Location = new System.Drawing.Point(400, 372);
+            this.loginBtn.Margin = new System.Windows.Forms.Padding(4);
+            this.loginBtn.Name = "loginBtn";
+            this.loginBtn.Size = new System.Drawing.Size(100, 28);
+            this.loginBtn.TabIndex = 6;
+            this.loginBtn.Text = "Login";
+            this.loginBtn.UseVisualStyleBackColor = true;
+            this.loginBtn.Click += new System.EventHandler(this.button1_Click);
             // 
             // checkBox1
             // 
@@ -203,7 +203,7 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.exait);
             this.Controls.Add(this.checkBox1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.loginBtn);
             this.Controls.Add(this.passwordLogin);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.username);
@@ -232,7 +232,7 @@
         private System.Windows.Forms.TextBox passwordLogin;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button loginBtn;
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.Label titlelabel;
         private System.Windows.Forms.Button registerBtn;

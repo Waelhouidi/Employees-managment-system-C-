@@ -9,3 +9,8 @@ C:\Users\waelh\source\repos\EMmployees\EMmployees\obj\Debug\EMmployees.exe
 C:\Users\waelh\source\repos\EMmployees\EMmployees\obj\Debug\EMmployees.pdb
 C:\Users\waelh\source\repos\EMmployees\EMmployees\obj\Debug\EMmployees.Login.resources
 C:\Users\waelh\source\repos\EMmployees\EMmployees\obj\Debug\EMmployees.Register.resources
+C:\Users\waelh\source\repos\EMmployees\EMmployees\obj\Debug\EMmployees.Dashboard.resources
+C:\Users\waelh\source\repos\EMmployees\EMmployees\obj\Debug\EMmployees.AddEmployee.resources
+C:\Users\waelh\source\repos\EMmployees\EMmployees\obj\Debug\EMmployees.dash.resources
+C:\Users\waelh\source\repos\EMmployees\EMmployees\obj\Debug\EMmployees.Salarycs.resources
+C:\Users\waelh\source\repos\EMmployees\EMmployees\obj\Debug\EMmployees.dhachy.resources
