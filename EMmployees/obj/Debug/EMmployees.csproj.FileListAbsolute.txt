@@ -14,3 +14,19 @@ C:\Users\waelh\source\repos\EMmployees\EMmployees\obj\Debug\EMmployees.AddEmploy
 C:\Users\waelh\source\repos\EMmployees\EMmployees\obj\Debug\EMmployees.dash.resources
 C:\Users\waelh\source\repos\EMmployees\EMmployees\obj\Debug\EMmployees.Salarycs.resources
 C:\Users\waelh\source\repos\EMmployees\EMmployees\obj\Debug\EMmployees.dhachy.resources
+C:\Users\waelh\Desktop\c# finalaù\Employees-managment-system-C-\EMmployees\bin\Debug\EMmployees.exe.config
+C:\Users\waelh\Desktop\c# finalaù\Employees-managment-system-C-\EMmployees\bin\Debug\EMmployees.exe
+C:\Users\waelh\Desktop\c# finalaù\Employees-managment-system-C-\EMmployees\bin\Debug\EMmployees.pdb
+C:\Users\waelh\Desktop\c# finalaù\Employees-managment-system-C-\EMmployees\obj\Debug\EMmployees.csproj.AssemblyReference.cache
+C:\Users\waelh\Desktop\c# finalaù\Employees-managment-system-C-\EMmployees\obj\Debug\EMmployees.AddEmployee.resources
+C:\Users\waelh\Desktop\c# finalaù\Employees-managment-system-C-\EMmployees\obj\Debug\EMmployees.dash.resources
+C:\Users\waelh\Desktop\c# finalaù\Employees-managment-system-C-\EMmployees\obj\Debug\EMmployees.Dashboard.resources
+C:\Users\waelh\Desktop\c# finalaù\Employees-managment-system-C-\EMmployees\obj\Debug\EMmployees.dhachy.resources
+C:\Users\waelh\Desktop\c# finalaù\Employees-managment-system-C-\EMmployees\obj\Debug\EMmployees.Login.resources
+C:\Users\waelh\Desktop\c# finalaù\Employees-managment-system-C-\EMmployees\obj\Debug\EMmployees.Properties.Resources.resources
+C:\Users\waelh\Desktop\c# finalaù\Employees-managment-system-C-\EMmployees\obj\Debug\EMmployees.Register.resources
+C:\Users\waelh\Desktop\c# finalaù\Employees-managment-system-C-\EMmployees\obj\Debug\EMmployees.Salarycs.resources
+C:\Users\waelh\Desktop\c# finalaù\Employees-managment-system-C-\EMmployees\obj\Debug\EMmployees.csproj.GenerateResource.cache
+C:\Users\waelh\Desktop\c# finalaù\Employees-managment-system-C-\EMmployees\obj\Debug\EMmployees.csproj.CoreCompileInputs.cache
+C:\Users\waelh\Desktop\c# finalaù\Employees-managment-system-C-\EMmployees\obj\Debug\EMmployees.exe
+C:\Users\waelh\Desktop\c# finalaù\Employees-managment-system-C-\EMmployees\obj\Debug\EMmployees.pdb
